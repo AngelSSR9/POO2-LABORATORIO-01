@@ -16,4 +16,12 @@ public class Circulo {
         return radio*radio*Math.PI;
     }
 
+    public void setRadio(double radio){
+        this.radio = radio;
+    }
+
+    public void setColor(String color){
+        this.color = color;
+    }
+
 }
