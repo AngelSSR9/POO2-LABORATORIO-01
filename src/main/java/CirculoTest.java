@@ -7,5 +7,7 @@ public class CirculoTest {
         Circulo c2 = new Circulo(6);
         System.out.println("Radio del circulo modificado: " + c2.getRadio());
         System.out.println("Area del circulo modificado: " + c2.getArea());
+
+        System.out.println(c2.toString());
     }
 }

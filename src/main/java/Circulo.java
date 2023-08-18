@@ -24,4 +24,11 @@ public class Circulo {
         this.color = color;
     }
 
+    @Override
+    public String toString() {
+        return "Circulo{" +
+                "radio=" + radio +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
