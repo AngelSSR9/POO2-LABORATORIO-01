@@ -8,6 +8,9 @@ public class CirculoTest {
         System.out.println("Radio del circulo modificado: " + c2.getRadio());
         System.out.println("Area del circulo modificado: " + c2.getArea());
 
+        c2.setColor("Rojo");
+        c2.setRadio(10);
+
         System.out.println(c2.toString());
     }
 }
